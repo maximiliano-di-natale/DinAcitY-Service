@@ -65,22 +65,17 @@ Dinacity Service nace como una solución moderna, transparente e independiente p
 
 ---
 
-## 📦 Cómo Subir los Cambios a tu Cuenta de GitHub
+## 📦 Repositorio en GitHub
 
-El repositorio Git ya ha sido inicializado localmente en esta carpeta. Para vincularlo a tu cuenta de GitHub, sigue estos sencillos pasos:
+El proyecto está sincronizado con el repositorio oficial:
+👉 **[https://github.com/maximiliano-di-natale/DinAcitY-Service](https://github.com/maximiliano-di-natale/DinAcitY-Service)**
 
-1. Crea un nuevo repositorio en tu cuenta de [GitHub](https://github.com/new) con el nombre:
-   ```
-   Dinacity-Service
-   ```
-   *(Recomendación: Déjalo vacío, sin inicializar con README ni .gitignore puesto que ya los tenemos configurados aquí).*
-
-2. En tu terminal dentro de la carpeta del proyecto, ejecuta:
-   ```bash
-   git remote add origin https://github.com/<TU_USUARIO_GITHUB>/Dinacity-Service.git
-   git branch -M main
-   git push -u origin main
-   ```
+Para enviar futuros cambios:
+```bash
+git add .
+git commit -m "descripción de tus cambios"
+git push
+```
 
 ---
 
