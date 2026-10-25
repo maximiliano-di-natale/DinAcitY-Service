@@ -183,7 +183,7 @@ export const BusinessDashboard: React.FC<BusinessDashboardProps> = ({
               <div className="flex flex-wrap items-center gap-3 mt-2">
                 <Badge category={currentBusiness.category} />
                 <span className="text-xs text-slate-400">
-                  {currentBusiness.city} • En DinAcitY desde {new Date(currentBusiness.createdAt).toLocaleDateString()}
+                  {currentBusiness.city} • En Dinacity Service desde {new Date(currentBusiness.createdAt).toLocaleDateString()}
                 </span>
               </div>
             </div>

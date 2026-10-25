@@ -7,9 +7,9 @@ import {
   Menu, 
   X, 
   Sparkles,
-  Layers,
   ShieldCheck
 } from 'lucide-react';
+import { DinacityLogo } from '../common/DinacityLogo';
 
 interface NavbarProps {
   currentView: ViewMode;
@@ -39,23 +39,23 @@ export const Navbar: React.FC<NavbarProps> = ({
             onClick={() => handleNavClick('dashboard')}
             className="flex items-center gap-3 cursor-pointer group select-none"
           >
-            <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-tr from-emerald-600 via-teal-500 to-cyan-500 flex items-center justify-center text-white shadow-md shadow-emerald-500/20 group-hover:scale-105 transition-transform duration-200">
-              <Layers className="w-6 h-6 stroke-[2.2]" />
+            <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-slate-900 border border-slate-800 flex items-center justify-center shadow-md shadow-blue-900/15 group-hover:scale-105 transition-transform duration-200">
+              <DinacityLogo size="sm" variant="icon-plain" />
             </div>
             <div>
-              <div className="flex items-center gap-2">
-                <span className="text-xl sm:text-2xl font-black tracking-tight text-slate-900 group-hover:text-emerald-600 transition-colors">
+              <div className="flex items-center gap-1.5">
+                <span className="text-xl sm:text-2xl font-black tracking-tight text-[#0056D6] group-hover:text-blue-700 transition-colors">
                   Dinacity
                 </span>
-                <span className="text-xl sm:text-2xl font-light tracking-tight text-emerald-600">
+                <span className="text-xl sm:text-2xl font-black tracking-tight text-[#34C759]">
                   Service
                 </span>
                 <span className="ml-1 text-[10px] font-black uppercase tracking-wider text-emerald-800 bg-emerald-100/80 px-2 py-0.5 rounded-full border border-emerald-300">
                   Panel Prestador
                 </span>
               </div>
-              <p className="text-[10px] sm:text-xs font-medium text-slate-400 tracking-wide uppercase">
-                Portal de Gestión & Analíticas Comerciales
+              <p className="text-[10px] sm:text-xs font-medium text-slate-400 tracking-wide">
+                Tu puente a servicios locales confiables
               </p>
             </div>
           </div>

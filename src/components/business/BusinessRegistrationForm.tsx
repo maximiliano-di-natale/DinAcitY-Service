@@ -13,6 +13,7 @@ import {
 } from 'lucide-react';
 import { CategoryId, ServiceOffer, Business } from '../../types';
 import { CATEGORIES } from '../../data/mockBusinesses';
+import { DinacityLogo } from '../common/DinacityLogo';
 
 interface BusinessRegistrationFormProps {
   onSubmit: (data: {
@@ -157,9 +158,9 @@ export const BusinessRegistrationForm: React.FC<BusinessRegistrationFormProps> =
       
       {/* Header Form */}
       <div className="border-b border-slate-200 pb-6">
-        <div className="flex items-center gap-2 text-emerald-600 font-bold text-xs uppercase tracking-wider mb-1">
-          <Sparkles className="w-4 h-4" />
-          <span>Alta de Prestador / Negocio</span>
+        <div className="flex items-center gap-2 text-[#0056D6] font-bold text-xs uppercase tracking-wider mb-1">
+          <DinacityLogo size="xs" variant="icon-plain" />
+          <span>Alta de Prestador en la Red Oficial</span>
         </div>
         <h2 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
           Publica tus Servicios en Dinacity Service

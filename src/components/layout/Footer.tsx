@@ -1,6 +1,7 @@
 import React from 'react';
-import { Layers, ShieldCheck, Zap, HeartHandshake, ArrowUpRight } from 'lucide-react';
+import { ShieldCheck, Zap, HeartHandshake, ArrowUpRight } from 'lucide-react';
 import { ViewMode } from '../../types';
+import { DinacityLogo } from '../common/DinacityLogo';
 
 interface FooterProps {
   onNavigate: (view: ViewMode) => void;
@@ -15,14 +16,14 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           {/* Brand Col */}
           <div className="md:col-span-2 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-500 to-teal-400 flex items-center justify-center text-white shadow-md shadow-emerald-500/20">
-                <Layers className="w-6 h-6 stroke-[2.2]" />
+              <div className="w-11 h-11 rounded-xl bg-slate-950 border border-slate-800 flex items-center justify-center shadow-md shadow-slate-950/60">
+                <DinacityLogo size="sm" variant="icon-plain" />
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-2xl font-black tracking-tight text-white">
                   Dinacity
                 </span>
-                <span className="text-2xl font-light tracking-tight text-emerald-400">
+                <span className="text-2xl font-black tracking-tight text-[#34C759]">
                   Service
                 </span>
               </div>

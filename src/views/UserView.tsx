@@ -6,6 +6,7 @@ import { BusinessDirectory } from '../components/user/BusinessDirectory';
 import { BusinessDetail } from '../components/user/BusinessDetail';
 import { Modal } from '../components/common/Modal';
 import { ShieldCheck, MessageCircle, Star, Sparkles, HelpCircle } from 'lucide-react';
+import { DinacityLogo } from '../components/common/DinacityLogo';
 
 interface UserViewProps {
   businesses: Business[];
@@ -62,6 +63,13 @@ export const UserView: React.FC<UserViewProps> = ({
 
         <div className="relative z-10 max-w-4xl mx-auto text-center space-y-6">
           
+          {/* Brand Emblem */}
+          <div className="flex justify-center">
+            <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-slate-950/85 border border-slate-700/80 flex items-center justify-center shadow-2xl shadow-blue-950/60 backdrop-blur-md hover:scale-105 transition-transform duration-200">
+              <DinacityLogo size="lg" variant="icon-plain" />
+            </div>
+          </div>
+
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/20 border border-emerald-400/30 text-emerald-300 text-xs sm:text-sm font-semibold backdrop-blur-md">
             <Sparkles className="w-4 h-4" />
             <span>El Gran Puente Intermediario de Servicios</span>
