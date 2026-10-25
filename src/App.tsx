@@ -8,7 +8,7 @@ import { OnboardingView } from './views/OnboardingView';
 import { DashboardView } from './views/DashboardView';
 
 export const App: React.FC = () => {
-  const [currentView, setCurrentView] = useState<ViewMode>('explore');
+  const [currentView, setCurrentView] = useState<ViewMode>('dashboard');
   
   const {
     businesses,

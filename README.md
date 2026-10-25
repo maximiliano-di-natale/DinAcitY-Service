@@ -25,14 +25,26 @@ Dinacity Service nace como una solución moderna, transparente e independiente p
   - Foto de portada / logo con asignación inteligente de imágenes de muestra.
 - **Integración Inmediata**: Al registrarse, el negocio se suma al catálogo en tiempo real con persistencia en `localStorage`.
 
-### 3. Panel de Gestión para Empresas (Dashboard)
-- **Métricas Clave**:
-  - Total de visualizaciones del perfil (`views`).
-  - Total de clics generados a WhatsApp (`contactClicks`).
-  - Tasa de conversión estimada (CTR %).
-  - Calificación y reseñas recibidas.
-- **Edición en Tiempo Real**: Capacidad de actualizar eslogan, descripción, WhatsApp, dirección y horarios.
-- **Previsualización Pública**: Acceso directo para comprobar cómo los usuarios ven la ficha.
+### 3. Panel de Prestador & Analíticas Matemáticas (Especialización)
+- **Métricas Clave con Variación Temporal (\(\Delta\%\))**:
+  - Total de visualizaciones del perfil (`views`) con comparativa porcentual vs período anterior.
+  - Consultas directas por WhatsApp (`contactClicks`).
+  - Tasa de conversión real: \(\text{Tasa} = (\text{Contactos} / \text{Vistas}) \times 100\%\).
+  - Trabajos cerrados estimados e ingresos brutos calculados.
+  - Tiempo promedio de respuesta en minutos y puntuación ponderada.
+- **Gráficos Interactivos con Recharts**:
+  - **Tendencia Temporal de Tráfico e Ingresos (AreaChart)**: Curvas diarias/semanales con gradientes visuales para 7D, 30D, 90D y 1 Año.
+  - **Distribución de Demanda por Día de la Semana (BarChart)**: Identificación del día pico comercial (Lunes a Domingo).
+  - **Franjas Horarias de Mayor Interés**: Momentos de mayor actividad para optimizar la atención de WhatsApp.
+  - **Distribución de Consultas por Servicio (Donut/PieChart)**: Cuota porcentual exacta de cada servicio ofrecido (suma 100.0%).
+  - **Embudo Matemático de Conversión (Funnel)**: Impresiones en directorio \(\to\) Vistas de perfil (CTR) \(\to\) Contactos en WhatsApp \(\to\) Trabajos finalizados.
+  - **Calificaciones y Reputación Ponderada**: Desglose de 5 a 1 estrella calculado mediante media ponderada rigurosa:
+    $$\bar{R} = \frac{\sum_{i=1}^5 (i \times N_i)}{\sum N_i}$$
+  - **Simulador Interactivo de Crecimiento y Retorno de Inversión (ROI)**: Proyección matemática en tiempo real al simular variaciones de tráfico y optimización de conversión.
+- **Gestión Integral de la Empresa**:
+  - Catálogo de servicios con edición y cálculo de ingresos potenciales por servicio.
+  - Edición en tiempo real de razón social, eslogan, WhatsApp, teléfono, dirección y horarios de atención.
+  - Vista previa modal de la ficha pública de DinAcitY Service.
 
 ---
 
