@@ -39,8 +39,8 @@ export const Navbar: React.FC<NavbarProps> = ({
             onClick={() => handleNavClick('dashboard')}
             className="flex items-center gap-3 cursor-pointer group select-none"
           >
-            <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-slate-900 border border-slate-800 flex items-center justify-center shadow-md shadow-blue-900/15 group-hover:scale-105 transition-transform duration-200">
-              <DinacityLogo size="sm" variant="icon-plain" />
+            <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-white border border-slate-200 shadow-sm flex items-center justify-center p-1 group-hover:scale-105 transition-transform duration-200">
+              <DinacityLogo size="md" variant="icon-plain" />
             </div>
             <div>
               <div className="flex items-center gap-1.5">
